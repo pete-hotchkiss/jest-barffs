@@ -1,6 +1,4 @@
-import "jest-chain";
-
-describe("TEST FOR: messages not barfing", (): void => {
+describe("TEST FOR: messages not barfing", () => {
   it("EXPECTS: to get  fail messages", ()=> {
     let calc = (a, b) => a + b;
 
